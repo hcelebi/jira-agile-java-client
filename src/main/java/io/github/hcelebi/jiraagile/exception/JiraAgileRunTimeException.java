@@ -1,4 +1,4 @@
-package io.github.hcelebi.exception;
+package io.github.hcelebi.jiraagile.exception;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

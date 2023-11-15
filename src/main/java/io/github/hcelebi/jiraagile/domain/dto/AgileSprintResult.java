@@ -1,4 +1,4 @@
-package io.github.hcelebi.domain.dto;
+package io.github.hcelebi.jiraagile.domain.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

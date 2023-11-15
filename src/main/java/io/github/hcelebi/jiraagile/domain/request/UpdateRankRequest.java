@@ -1,4 +1,4 @@
-package io.github.hcelebi.domain.request;
+package io.github.hcelebi.jiraagile.domain.request;
 
 import lombok.Data;
 

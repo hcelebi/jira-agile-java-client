@@ -1,8 +1,8 @@
-package io.github.hcelebi.domain.dto;
+package io.github.hcelebi.jiraagile.domain.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
-import io.github.hcelebi.serializer.CustomDateTimeDeserializer;
+import io.github.hcelebi.jiraagile.serializer.CustomDateTimeDeserializer;
 import lombok.Data;
 import org.joda.time.DateTime;
 

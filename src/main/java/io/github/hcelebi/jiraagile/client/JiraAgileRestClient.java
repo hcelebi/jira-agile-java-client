@@ -1,10 +1,10 @@
-package io.github.hcelebi.client;
+package io.github.hcelebi.jiraagile.client;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import io.github.hcelebi.domain.dto.AgileSprintResult;
-import io.github.hcelebi.domain.request.UpdateRankRequest;
-import io.github.hcelebi.exception.JiraAgileRunTimeException;
+import io.github.hcelebi.jiraagile.domain.dto.AgileSprintResult;
+import io.github.hcelebi.jiraagile.domain.request.UpdateRankRequest;
+import io.github.hcelebi.jiraagile.exception.JiraAgileRunTimeException;
 
 import java.io.IOException;
 import java.net.URI;

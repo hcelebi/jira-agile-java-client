@@ -1,4 +1,4 @@
-package io.github.hcelebi.serializer;
+package io.github.hcelebi.jiraagile.serializer;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;
