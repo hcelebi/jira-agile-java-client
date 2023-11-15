@@ -9,5 +9,5 @@ Add Dependency and configure create instance
 ```
 
 ```java
-JiraAgileRestClient client = new JiraAgileRestClient("baseUri", "token", "workspace", HttpClient.newHttpClient());
+JiraAgileRestClient client = new JiraAgileRestClient("baseUri", "token", HttpClient.newHttpClient());
 ```
