@@ -49,11 +49,11 @@ public class JiraAgileRestClient {
         }
     }
 
-    public AgileSprintResult getSprints(Integer boardId) {
+    public AgileSprintResult getSprints(Integer boardId, Integer maxResults, Integer startAt) {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
             HttpResponse<String> response = client.send(HttpRequest.newBuilder()
-                    .uri(URI.create(baseUri + "/board/" + boardId + "/sprint"))
+                    .uri(URI.create(baseUri + "/board/" + boardId + "/sprint?maxResults=" + maxResults + "&startAt=" + startAt))
                     .header("Authorization", "Basic " + token)
                     .header("Content-Type", "application/json")
                     .GET()
